@@ -31,12 +31,11 @@ Pro tips:
 '''
 
 # Write your code here:
+def hello (name):
+    return "Hello, " + name + "!"
 
-def hello(who):
-    return "Hello, {}!".format(who)
-
-def print_hello(who):
-    print(hello(who))
+def print_hello(name):
+    print(hello(name))
 
 # Do not edit any code below this line!
 
